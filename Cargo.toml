@@ -1,0 +1,18 @@
+[package]
+name = "mac-audit"
+version = "0.1.0"
+edition = "2021"
+description = "Transparent, consent-based macOS audit agent — every user knows it is running and grants their own permissions"
+license = "MIT"
+repository = "https://github.com/auricvex/mac-audit"
+
+[dependencies]
+sha2 = "0.10"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[lints.clippy]
+pedantic = { level = "warn", priority = -1 }
+module_name_repetitions = "allow"
+missing_errors_doc = "allow"
+must_use_candidate = "allow"
