@@ -11,16 +11,19 @@ the end of each section.
 - macOS 27 is named **Golden Gate**, is Apple-silicon only
   (support ends for Intel Macs), and MacBook Air models with M1
   and later — including the M3 Air — are supported.
+  - Apple Support, "How to upgrade to macOS 27 Golden Gate"
+    (published 2026-09-14): *"macOS 27 is compatible with any Mac
+    with Apple silicon, which includes any Mac with an M-series
+    chip or A-series chip."* — https://support.apple.com/en-us/127455
   - https://www.macrumors.com/2026/06/08/macos-golden-gate-macs-compatible/
   - https://9to5mac.com/2026/09/09/apple-confirms-macos-27-golden-gate-launch-date-september-14/
   - https://tidbits.com/2026/07/20/the-real-system-requirements-for-%EF%A3%BFos-27/
 - Apple Developer releases page lists macOS 27 releases, distinct
   from macOS 26 Tahoe.
   - https://developer.apple.com/news/releases/
-- **UNVERIFIED:** an official Apple support page stating in one
-  place "Golden Gate runs on MacBook Air M3" — Apple's
-  compatibility pages tend to list by model year, not chip, so
-  this rests on the corroborating sources above.
+- Note: Apple states compatibility by chip family (above), not by
+  naming the M3 Air individually; M3 support follows directly from
+  Apple's blanket Apple-silicon statement.
 
 **Conclusion:** targeting macOS 27 on an M3 Air is a supported,
 current platform. Nothing in Mac Audit targets legacy/Intel paths.
